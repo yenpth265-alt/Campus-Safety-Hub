@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8674FD8B-EACE-4218-A466-1BC316AAF961}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampusSafetyHub", "src\CampusSafetyHub\CampusSafetyHub.csproj", "{F41825F6-91F5-483B-92DE-789F297F8B88}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{CD2FCDDA-ECBB-4C27-9AEA-BBF36EEA2FE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampusSafetyHub.Tests", "tests\CampusSafetyHub.Tests\CampusSafetyHub.Tests.csproj", "{78DF9B16-0B8B-4B83-8CB8-6A2DB34073A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F41825F6-91F5-483B-92DE-789F297F8B88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F41825F6-91F5-483B-92DE-789F297F8B88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F41825F6-91F5-483B-92DE-789F297F8B88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F41825F6-91F5-483B-92DE-789F297F8B88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78DF9B16-0B8B-4B83-8CB8-6A2DB34073A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78DF9B16-0B8B-4B83-8CB8-6A2DB34073A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78DF9B16-0B8B-4B83-8CB8-6A2DB34073A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78DF9B16-0B8B-4B83-8CB8-6A2DB34073A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F41825F6-91F5-483B-92DE-789F297F8B88} = {8674FD8B-EACE-4218-A466-1BC316AAF961}
+		{78DF9B16-0B8B-4B83-8CB8-6A2DB34073A3} = {CD2FCDDA-ECBB-4C27-9AEA-BBF36EEA2FE9}
+	EndGlobalSection
+EndGlobal
