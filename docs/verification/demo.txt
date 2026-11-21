@@ -1,0 +1,36 @@
+CAMPUS SAFETY HUB - Adapter / Observer / Mediator
+
+1. NORMAL: 300 -> 30.0% (no alerts)
+
+2. WARNING: 600 -> 60.0% (no emergency actions)
+[DASHBOARD] Lab Smoke Sensor: 60.0 % smoke [WARNING]
+[EMAIL - SIMULATED] Lab Smoke Sensor: 60.0 % smoke [WARNING]
+[AUDIT] 2026-11-21T21:21:04.5369052+07:00 | Lab Smoke Sensor | 60.0 % smoke | WARNING
+
+3. Attach the same email observer again; CRITICAL: 735 -> 73.5%
+[DASHBOARD] Lab Smoke Sensor: 73.5 % smoke [CRITICAL]
+[EMAIL - SIMULATED] Lab Smoke Sensor: 73.5 % smoke [CRITICAL]
+[AUDIT] 2026-11-21T21:21:04.5896692+07:00 | Lab Smoke Sensor | 73.5 % smoke | CRITICAL
+[MEDIATOR] FIRE_DETECTED
+[ALARM] Activated
+[DOOR] Unlocked
+[VENTILATION] Stopped
+
+4. Detach email; CRITICAL again (no email output)
+[DASHBOARD] Lab Smoke Sensor: 73.5 % smoke [CRITICAL]
+[AUDIT] 2026-11-21T21:21:04.5997569+07:00 | Lab Smoke Sensor | 73.5 % smoke | CRITICAL
+[MEDIATOR] FIRE_DETECTED
+[ALARM] Activated
+[DOOR] Unlocked
+[VENTILATION] Stopped
+
+5. Reattach email; CRITICAL again (email output restored)
+[DASHBOARD] Lab Smoke Sensor: 73.5 % smoke [CRITICAL]
+[AUDIT] 2026-11-21T21:21:04.5998487+07:00 | Lab Smoke Sensor | 73.5 % smoke | CRITICAL
+[MEDIATOR] FIRE_DETECTED
+[ALARM] Activated
+[DOOR] Unlocked
+[VENTILATION] Stopped
+[EMAIL - SIMULATED] Lab Smoke Sensor: 73.5 % smoke [CRITICAL]
+
+Final state: alarm active = True, door locked = False, ventilation running = False
