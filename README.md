@@ -2,8 +2,6 @@
 
 **Sinh viên:** Phan Thị Hải Yến — **MSSV:** 202419124.
 
-**Báo cáo:** [Word](docs/Bao-cao-Bai-tap-OOP-Campus-Safety-Hub.docx) · [PDF](docs/Bao-cao-Bai-tap-OOP-Campus-Safety-Hub.pdf). Sơ đồ và ảnh kết quả nằm trong `docs/images/`; nhật ký build, 20/20 test case và demo ngày 21/11/2026 nằm trong `docs/verification/`.
-
 Bài thực hành mẫu thiết kế tuần 11: ứng dụng Console C# mô phỏng giám sát khói trong phòng máy, sử dụng **Adapter**, **Observer** và **Mediator**. Email và nhật ký được mô phỏng bằng Console; không cần cơ sở dữ liệu, mạng hay dịch vụ email.
 
 ## Chạy chương trình
